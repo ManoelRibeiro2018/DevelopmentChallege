@@ -17,7 +17,7 @@ namespace DevelopmentChallenge.Data.Classes
             ((decimal)Math.Sqrt(3) / 4) * Lado * Lado;
 
         public override string TraducirForma(int tipo, int cantidad, int idioma)
-            => ""; // TODO - Segregar responsabilidade de Idoma para uma classe separada
+            => Idioma.Traduzir("Triángulo", "Triangle", cantidad, idioma);
             
     }
 }

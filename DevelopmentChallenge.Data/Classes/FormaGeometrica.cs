@@ -22,8 +22,6 @@ namespace DevelopmentChallenge.Data.Classes
     {
         #region Idiomas
 
-        public const int Castellano = 1;
-        public const int Ingles = 2;
 
         #endregion
 

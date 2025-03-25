@@ -15,6 +15,6 @@ namespace DevelopmentChallenge.Data.Classes
         public override decimal CalcularArea() =>
             (decimal)Math.PI* (Radio / 2) * (Radio / 2);
         public override string TraducirForma(int tipo, int cantidad, int idioma)
-            => ""; // TODO - Segregar responsabilidade de Idoma para uma classe separada
+            => Idioma.Traduzir("Círculo", "Circle", cantidad, idioma);
     }
 }

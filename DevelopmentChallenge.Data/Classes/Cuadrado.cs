@@ -16,6 +16,6 @@ namespace DevelopmentChallenge.Data.Classes
             => Lado * Lado;
 
         public override string TraducirForma(int tipo, int cantidad, int idioma)
-            => ""; // TODO - Segregar responsabilidade de Idoma para uma classe separada
+            => Idioma.Traduzir("Cuadrado", "Square", cantidad, idioma);
     }
 }
