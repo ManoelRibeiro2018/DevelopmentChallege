@@ -31,12 +31,6 @@ namespace DevelopmentChallenge.Data.Classes
 
         public int Tipo { get; set; }
 
-        public FormaGeometrica(int tipo, decimal ancho)
-        {
-            Tipo = tipo;
-            _lado = ancho;
-        }
-
         public static string Imprimir(List<FormaGeometrica> formas, int idioma)
         {
             var sb = new StringBuilder();
