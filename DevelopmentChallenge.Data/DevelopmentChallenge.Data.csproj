@@ -48,6 +48,7 @@
     <Compile Include="Classes\Cuadrado.cs" />
     <Compile Include="Classes\FormaGeometrica.cs" />
     <Compile Include="Classes\Idioma.cs" />
+    <Compile Include="Classes\ReportGenerator.cs" />
     <Compile Include="Classes\TrianguloEquilatero.cs" />
     <Compile Include="Enum\IdiomaEnum.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

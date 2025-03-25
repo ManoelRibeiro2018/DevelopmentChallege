@@ -15,7 +15,7 @@ namespace DevelopmentChallenge.Data.Classes
         public override decimal CalcularArea()
             => Lado * Lado;
 
-        public override string TraducirForma(int tipo, int cantidad, int idioma)
+        public override string TraducirForma(int cantidad, int idioma)
             => Idioma.Traduzir("Cuadrado", "Square", cantidad, idioma);
     }
 }

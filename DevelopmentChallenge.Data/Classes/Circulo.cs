@@ -12,9 +12,11 @@ namespace DevelopmentChallenge.Data.Classes
 
         public override decimal CalcularPerimetro()
             => (decimal)Math.PI * Radio;
+
         public override decimal CalcularArea() =>
-            (decimal)Math.PI* (Radio / 2) * (Radio / 2);
-        public override string TraducirForma(int tipo, int cantidad, int idioma)
+            (decimal)Math.PI * (Radio / 2) * (Radio / 2);
+
+        public override string TraducirForma(int cantidad, int idioma)
             => Idioma.Traduzir("Círculo", "Circle", cantidad, idioma);
     }
 }
