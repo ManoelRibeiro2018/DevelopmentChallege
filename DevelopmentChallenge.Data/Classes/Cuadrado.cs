@@ -1,8 +1,6 @@
-﻿using System;
-
-namespace DevelopmentChallenge.Data.Classes
+﻿namespace DevelopmentChallenge.Data.Classes
 {
-    public class Cuadrado :  FormaGeometrica
+    public class Cuadrado : FormaGeometrica
     {
         public decimal Lado { get; set; }
         public Cuadrado(decimal lado)
